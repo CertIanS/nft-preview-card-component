@@ -1,6 +1,6 @@
 body{
     font-family: 'Outfit', sans-serif;
-    background-color: hsl(216, 50%, 16%);
+    background-color: hsl(217, 54%, 11%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,13 +11,9 @@ span, p{
     color: hsl(215, 51%, 70%);
 }
 
-b{
-    color: white;
-    margin-left: 0.3em;
-}
-
 hr{
-    border: 1px solid hsl(216, 50%, 16%);
+    border: 1px solid hsl(215, 32%, 27%);
+    margin-top: 1.5em;
 }
 
 h3:hover, b:hover{
@@ -34,6 +30,10 @@ h3:hover, b:hover{
     float: right;
 }
 
+#eth img, #daysLeft img{
+    margin-right: 0.5em;
+}
+
 #desc{
     color: hsl(215, 51%, 70%);
 }
@@ -41,6 +41,11 @@ h3:hover, b:hover{
 #avatar{
     border: 1px solid white;
     border-radius: 50%;
+}
+
+#name{
+    color: white;
+    margin-left: 0.3em;
 }
 
 #equilibrium{
@@ -52,7 +57,7 @@ h3:hover, b:hover{
 
 .card{
     color: white;
-    background-color: hsl(215, 32%, 27%);
+    background-color: hsl(216, 50%, 16%);
     padding: 1.0em;
     border-radius: 1.5em;
     box-shadow: 0px 0px 10px 10px hsl(217, 54%, 11%);
